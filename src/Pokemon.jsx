@@ -48,7 +48,7 @@ export const Pokemon = () => {
   if (loading) {
     return (
       <div>
-        <h1>Loading....</h1>
+        <h1>Loading Pokemon....</h1>
       </div>
     );
   }
@@ -65,12 +65,12 @@ export const Pokemon = () => {
     <>
       <section className="container">
         <header>
-          <h1>Pokemons</h1>
+          <h1>Pokemons Data</h1>
         </header>
         <div className="pokemon-search">
           <input
             type="text"
-            placeholder="search Pokemon"
+            placeholder="Search Pokemons"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
