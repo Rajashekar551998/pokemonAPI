@@ -33,7 +33,7 @@ export const PokemonCards = ({ pokemonData }) => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h1 className="pokemon-modal-name" id={modalLabelId}>
+              <h1 className="pokemon-name" id={modalLabelId}>
                 {pokemonData.name}
               </h1>
               <button
